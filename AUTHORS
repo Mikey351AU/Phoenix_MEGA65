@@ -1,0 +1,64 @@
+Phoenix_MEGA65 - Arcade Phoenix for MEGA65
+==========================================
+
+MEGA65 port done in 2026 by Mikey351AU (with Claude)
+
+https://github.com/Mikey351AU/Phoenix_MEGA65
+
+Phoenix_MEGA65 is licensed under the terms of GNU/GPL v3, for more information please read the file LICENSE
+Parts of Phoenix_MEGA65 are licensed under other Free-software licenses as described in the source code
+
+Phoenix_MEGA65:
+---------------
+
+  Phoenix_MEGA65 is a port of MiSTer's Arcade-Phoenix core
+      done by the MiSTer Development Team
+      Original GitHub Repository: https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer
+      Significant contributors:
+      * Sorgelig (MiSTer port, 2017)
+
+  The Phoenix FPGA implementation itself
+      done by Dar (DarFPGA, 2016), http://darfpga.blogspot.fr
+      * gen_ram.vhd by Peter Wendrich, modified by Dar
+      * T80 Z80 CPU core by Daniel Wallner and others
+
+Other than that and my own work, Phoenix_MEGA65 uses:
+-----------------------------------------------------
+
+  * MiSTer2MEGA65 by The MiSTer2MEGA65 Development Team
+    https://github.com/sy2002/MiSTer2MEGA65
+
+  * QNICE Co-Processor and System-on-a-Chip for file operations and on-screen-menu by The QNICE Development Team
+    https://github.com/sy2002/QNICE-FPGA
+
+  * bit2core from mega65-tools (LGPL v3) to write the MEGA65 core file header
+    https://github.com/MEGA65/mega65-tools
+
+  * Various MEGA65 drivers taken from the MEGA65 VHDL source by Paul Gardner-Stephen
+    https://github.com/MEGA65/mega65-core
+
+  * VGA Timing Generator, done by Scott Larson
+    https://www.digikey.com/eewiki/pages/viewpage.action?pageId=15925278
+
+  * VGA to HDMI converter IP core, done by Adam Barnes
+    https://github.com/amb5l/tyto2
+
+  * AVALON SCALER used for scaling to 720p for HDMI, done by temlib.org
+    http://temlib.org/site/?page_id=10
+
+  * HyperRAM controller, done by MJoergen
+    https://mjoergen.github.io/HyperRAM/
+
+  * Debouncer: I/O debouncing used for the joysticks, done by Scott Larson
+    https://www.digikey.com/eewiki/pages/viewpage.action?pageId=4980758
+
+  * Anikki-16x16 font, archived and provided by k80w
+    https://github.com/k80w/consolefonts
+
+  * PSF font to text file converter nafe-0.1 by Corvus Corax
+    https://sourceforge.net/projects/nafe/
+
+  * PSF font to C include file converter psftools-1.1.1 by John Elliott
+    https://www.seasip.info/Unix/PSF/
+
+Game ROMs are not included: you need your own MAME ROM set (see README.md).
